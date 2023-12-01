@@ -11,7 +11,7 @@ const NotificationSwiper = () => {
     SwiperCore.use([Autoplay]);
   }, []);
   return (
-    <div className="px-5 max-w-[400px]">
+    <div className="px-4  max-w-[400px]">
       <Swiper
         slidesPerView="auto"
         spaceBetween={15}
