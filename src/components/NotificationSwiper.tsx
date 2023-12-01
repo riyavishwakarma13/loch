@@ -1,19 +1,14 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { useEffect } from "react";
 import "swiper/css";
-import SwiperCore from "swiper";
 import { Autoplay, A11y } from "swiper/modules";
 
 const NotificationSwiper = () => {
-  useEffect(() => {
-    SwiperCore.use([Autoplay]);
-  }, []);
   return (
     <div className="px-4  max-w-[400px]">
       <Swiper
-        slidesPerView="auto"
+        slidesPerView={2}
         spaceBetween={15}
         roundLengths={true}
         loop={true}
@@ -24,20 +19,20 @@ const NotificationSwiper = () => {
           delay: 0,
           disableOnInteraction: false,
         }}
-        breakpoints={{
-          // when window width is >= 320px
-          576: {
-            slidesPerView: 2,
-          },
-          // when window width is >= 480px
-          992: {
-            slidesPerView: 3,
-          },
-          // when window width is >= 640px
-          1400: {
-            slidesPerView: 4,
-          },
-        }}
+        // breakpoints={{
+        //   // when window width is >= 320px
+        //   576: {
+        //     slidesPerView: 2,
+        //   },
+        //   // when window width is >= 480px
+        //   992: {
+        //     slidesPerView: 3,
+        //   },
+        //   // when window width is >= 640px
+        //   1400: {
+        //     slidesPerView: 4,
+        //   },
+        // }}
       >
         <SwiperSlide className="bg-white max-w-full !w-[190px] rounded-lg box-gradient space-y-3 h-[171px] p-3">
           <div className="flex justify-between items-start">
