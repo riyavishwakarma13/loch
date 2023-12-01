@@ -6,7 +6,7 @@ import SignUp from "./components/SignUp";
 function App() {
   return (
     <div className=" flex items-center">
-      <div className=" lg:block hidden radial-gradient space-y-12 flex-1 lg:pl-40 py-10">
+      <div className=" lg:block hidden radial-gradient space-y-12 flex-1 lg:pl-40 py-6">
         <One />
         <Two />
         <Three />
