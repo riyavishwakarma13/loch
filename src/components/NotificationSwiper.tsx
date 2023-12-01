@@ -1,19 +1,45 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { useEffect } from "react";
+import "swiper/css";
+import SwiperCore from "swiper";
+import { Autoplay, A11y } from "swiper/modules";
 
 const NotificationSwiper = () => {
+  useEffect(() => {
+    SwiperCore.use([Autoplay]);
+  }, []);
   return (
-    <div className="max-w-[400px] lg:max-w-[600px] px-5">
+    <div className="px-5">
       <Swiper
-        slidesPerView={"auto"}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
+        slidesPerView="auto"
+        spaceBetween={15}
+        roundLengths={true}
+        loop={true}
+        modules={[Autoplay, A11y]}
+        className="mySwiper"
+        speed={5000}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
         }}
-        className="mySwiper "
+        breakpoints={{
+          // when window width is >= 320px
+          576: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 480px
+          992: {
+            slidesPerView: 3,
+          },
+          // when window width is >= 640px
+          1400: {
+            slidesPerView: 4,
+          },
+        }}
       >
-        <SwiperSlide className="bg-white w-[190px] rounded-lg box-gradient space-y-3 h-[171px] p-3">
+        <SwiperSlide className="bg-white w-full max-w-[190px] rounded-lg box-gradient space-y-3 h-[171px] p-3">
           <div className="flex justify-between items-start">
             <img
               src="/assets/bell 2.svg"
@@ -30,7 +56,7 @@ const NotificationSwiper = () => {
             hello@gmail.com
           </p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white w-[190px] rounded-lg flex flex-col justify-between h-[171px] p-3">
+        <SwiperSlide className="bg-white w-full max-w-[190px] rounded-lg flex flex-col justify-between h-[171px] p-3">
           <div className="flex justify-between items-start">
             <img
               src="/assets/bar-chart-2.svg"
@@ -56,7 +82,7 @@ const NotificationSwiper = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-white w-[190px] rounded-lg flex flex-col justify-between h-[171px] p-3">
+        <SwiperSlide className="bg-white w-full max-w-[190px] rounded-lg flex flex-col justify-between h-[171px] p-3">
           <div className="flex justify-between items-start">
             <img
               src="/assets/clock.svg"
