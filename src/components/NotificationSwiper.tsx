@@ -13,13 +13,13 @@ const NotificationSwiper = () => {
   return (
     <div className="px-5">
       <Swiper
-        slidesPerView="auto"
+        slidesPerView={2}
         spaceBetween={15}
         roundLengths={true}
         loop={true}
         modules={[Autoplay, A11y]}
         className="mySwiper"
-        speed={5000}
+        speed={4000}
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
