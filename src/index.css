@@ -13,7 +13,6 @@ body {
     rgba(0, 0, 0, 0) 100%
   );
   background-color: #000;
-  /* color: #e5e5e680; */
 }
 
 .scrollbar-none::-webkit-scrollbar {
@@ -24,9 +23,6 @@ body {
 .scrollbar-none {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-}
-
-@layer components {
 }
 
 .text-shadow {
@@ -63,4 +59,16 @@ body {
     #2f15d0 64.58%,
     rgba(0, 0, 0, 0) 100%
   );
+}
+
+@media screen and (max-width: 1280px) {
+  .mobile-screen {
+    background: radial-gradient(
+      92.19% 89.74% at 32.27% 91.27%,
+      rgba(31, 169, 17, 0.81) 17.21%,
+      #2f15d0 64.58%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    background-repeat: no-repeat !important;
+  }
 }

@@ -13,8 +13,8 @@ function App() {
           <Three />
         </div>
       </div>
-      <div className="flex-1 xl:flex-[0.3]  bg-white">
-        <div className="w-full flex items-center h-[100dvh] justify-center bg-white xl:w-[640px] ">
+      <div className="flex-1 xl:flex-[0.3]">
+        <div className="w-full flex items-center h-[100dvh] justify-center mobile-screen bg-white xl:w-[640px] ">
           <SignUp />
         </div>
       </div>

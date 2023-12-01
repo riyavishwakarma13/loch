@@ -11,7 +11,7 @@ const Two = () => {
           portfolio are doing.
         </p>
       </div>
-      <div className="order-last">
+      <div>
         <img
           src="/assets/dashboard.png"
           alt="dashboard"
