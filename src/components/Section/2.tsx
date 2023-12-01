@@ -1,7 +1,7 @@
 const Two = () => {
   return (
     <div className="flex flex-wrap items-center justify-center 2xl:justify-between gap-5 md:pr-20">
-      <div className="xl:order-last flex flex-col items-end gap-4 w-full max-w-[300px]">
+      <div className="2xl:order-1 flex flex-col items-end gap-4 w-full max-w-[300px]">
         <img src="/assets/Eye.svg" alt="Eye" height={32} width={32} />
         <h3 className="text-3xl text-center lg:text-right font-medium text-white">
           Watch what the whales are doing
