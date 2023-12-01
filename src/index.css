@@ -61,7 +61,7 @@ body {
   );
 }
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1279px) {
   .mobile-screen {
     background: radial-gradient(
       92.19% 89.74% at 32.27% 91.27%,
