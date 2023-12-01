@@ -1,8 +1,8 @@
 const SignUp = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-5">
-      <h1 className="font-medium text-4xl text-gray-400">
-        Sign up <br /> for exclusive access.
+      <h1 className="font-medium pl-2 self-start text-4xl text-gray-400">
+        Sign up for <br /> exclusive access.
       </h1>
       <form className="flex flex-col gap-5 w-full max-w-[340px]">
         <input

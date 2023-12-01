@@ -11,9 +11,9 @@ const NotificationSwiper = () => {
     SwiperCore.use([Autoplay]);
   }, []);
   return (
-    <div className="px-5">
+    <div className="px-5 max-w-[400px]">
       <Swiper
-        slidesPerView={2}
+        slidesPerView="auto"
         spaceBetween={15}
         roundLengths={true}
         loop={true}
@@ -39,7 +39,7 @@ const NotificationSwiper = () => {
           },
         }}
       >
-        <SwiperSlide className="bg-white w-full max-w-[190px] rounded-lg box-gradient space-y-3 h-[171px] p-3">
+        <SwiperSlide className="bg-white max-w-full !w-[190px] rounded-lg box-gradient space-y-3 h-[171px] p-3">
           <div className="flex justify-between items-start">
             <img
               src="/assets/bell 2.svg"
@@ -56,7 +56,7 @@ const NotificationSwiper = () => {
             hello@gmail.com
           </p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white w-full max-w-[190px] rounded-lg flex flex-col justify-between h-[171px] p-3">
+        <SwiperSlide className="bg-white max-w-full !w-[190px] rounded-lg flex flex-col justify-between h-[171px] p-3">
           <div className="flex justify-between items-start">
             <img
               src="/assets/bar-chart-2.svg"
@@ -82,7 +82,7 @@ const NotificationSwiper = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-white w-full max-w-[190px] rounded-lg flex flex-col justify-between h-[171px] p-3">
+        <SwiperSlide className="bg-white max-w-full !w-[190px] rounded-lg flex flex-col justify-between h-[171px] p-3">
           <div className="flex justify-between items-start">
             <img
               src="/assets/clock.svg"
