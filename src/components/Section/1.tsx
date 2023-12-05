@@ -21,7 +21,7 @@ const One = () => {
         </div>
         <NotificationSwiper />
       </div>
-      <div className="xl:hidden p-5 rounded-lg gap-5 flex flex-col justify-center backdrop-blur-lg bg-white bg-opacity-20 items-center text-center">
+      <div className="xl:hidden px-5 max-w-[610px] w-full py-10 rounded-lg gap-5 flex flex-col justify-center backdrop-blur-lg bg-white bg-opacity-20 items-center text-center">
         <div className="flex flex-col justify-center items-center gap-5">
           <img
             src="/assets/Bell.svg"

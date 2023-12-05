@@ -1,5 +1,7 @@
 import One from "./Section/1";
 import Two from "./Section/2";
+import Three from "./Section/3";
+import SignUp from "./SignUp";
 
 const Mobile = () => {
   return (
@@ -13,9 +15,12 @@ const Mobile = () => {
           width={40}
         />
       </div>
-      <div className="space-y-5">
+      <div className="flex flex-col items-center justify-center gap-5">
         <One />
         <Two />
+        <p className="text-3xl font-bold">Want To Know More?</p>
+        <SignUp />
+        <Three />
       </div>
     </div>
   );

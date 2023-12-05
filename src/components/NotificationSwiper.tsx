@@ -6,7 +6,7 @@ import { Autoplay, A11y } from "swiper/modules";
 
 const NotificationSwiper = () => {
   return (
-    <div className="px-4  max-w-[320px] w-full xl:max-w-[400px]">
+    <div className="px-4  max-w-[320px] w-[250px] sm:w-full xl:max-w-[400px]">
       <Swiper
         slidesPerView={2}
         spaceBetween={15}

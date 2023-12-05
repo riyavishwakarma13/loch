@@ -22,7 +22,7 @@ const Two = () => {
           />
         </div>
       </div>
-      <div className="xl:hidden p-5 rounded-lg gap-5 flex sm:flex-row flex-col justify-center backdrop-blur-lg bg-white bg-opacity-20 items-center text-center">
+      <div className="xl:hidden px-5 py-10 rounded-lg gap-5 flex sm:flex-row flex-col justify-center backdrop-blur-lg bg-white bg-opacity-20 items-center text-center">
         <div className="2xl:order-1 flex flex-col items-center gap-4 w-full max-w-[300px]">
           <img src="/assets/Eye.svg" alt="Eye" height={32} width={32} />
           <h3 className="text-xl text-center font-medium text-white">
@@ -38,8 +38,8 @@ const Two = () => {
             src="/assets/dashboard.png"
             alt="dashboard"
             className="rounded-xl border border-gray-200"
-            height={200}
-            width={200}
+            height={250}
+            width={250}
           />
         </div>
       </div>

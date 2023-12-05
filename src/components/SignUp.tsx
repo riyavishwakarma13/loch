@@ -62,7 +62,7 @@ const SignUp = () => {
             Get Started
           </button>
         </form>
-        <p className="font-semibold">
+        <p className="font-semibold text-center">
           You&apos;ll receive an email with an invite link to join.
         </p>
       </div>
