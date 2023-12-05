@@ -6,13 +6,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-  background: radial-gradient(
-    92.19% 89.74% at 32.27% 91.27%,
-    rgba(31, 169, 17, 0.81) 17.21%,
-    #2f15d0 64.58%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  background-color: #000;
 }
 
 .scrollbar-none::-webkit-scrollbar {
@@ -59,6 +52,7 @@ body {
     #2f15d0 64.58%,
     rgba(0, 0, 0, 0) 100%
   );
+  background-color: black;
 }
 
 @media screen and (max-width: 1279px) {
