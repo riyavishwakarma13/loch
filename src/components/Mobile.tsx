@@ -18,7 +18,7 @@ const Mobile = () => {
       <div className="flex flex-col items-center justify-center gap-5">
         <One />
         <Two />
-        <p className="text-3xl font-bold">Want To Know More?</p>
+        <p className="text-4xl text-center font-semibold">Want To Know More?</p>
         <SignUp />
         <Three />
       </div>
