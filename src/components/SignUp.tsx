@@ -17,7 +17,7 @@ const SignUp = () => {
   };
 
   return (
-    <div>
+    <>
       <div className="hidden xl:flex flex-col items-center justify-center gap-5">
         <h1 className="font-medium pl-2 self-start text-4xl text-gray-400">
           Sign up for <br /> exclusive access.
@@ -31,7 +31,7 @@ const SignUp = () => {
             placeholder="Your email address"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
-            className="border border-gray-300 py-5 px-6 rounded-lg shadow-md placeholder:text-gray-300"
+            className="border border-gray-300 py-5 px-6 rounded-lg shadow-md hover:border hover:scale-105 transition-all cursor-pointer focus:cursor-text hover:border-black placeholder:text-gray-300"
           />
           {errorMessage && <p className="text-red-500">{errorMessage}</p>}
           <button className="bg-black  text-white font-semibold py-4 px-7 rounded-lg">
@@ -66,7 +66,7 @@ const SignUp = () => {
           You&apos;ll receive an email with an invite link to join.
         </p>
       </div>
-    </div>
+    </>
   );
 };
 
