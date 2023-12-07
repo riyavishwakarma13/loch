@@ -15,7 +15,7 @@ const TestimonialSwiper = () => {
         }}
         className="mySwiper lg:pr-3 "
       >
-        <SwiperSlide className="bg-white w-full max-w-[350px] rounded-xl box-gradient space-y-3 p-4">
+        <SwiperSlide className="bg-white w-full max-w-[350px] rounded-xl space-y-3 p-4">
           <div className="flex flex-wrap items-center gap-2">
             <p className="text-base font-semibold">Jack F</p>
             <p className="text-sm text-gray-400 font-medium">Ex Blackrock PM</p>
@@ -25,7 +25,7 @@ const TestimonialSwiper = () => {
             into one unified app.”
           </p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white w-full max-w-[350px] rounded-xl box-gradient space-y-3 p-4">
+        <SwiperSlide className="bg-white w-full max-w-[350px] rounded-xl space-y-3 p-4">
           <div className="flex flex-wrap items-center gap-2">
             <p className="text-base font-semibold">Yash P</p>
             <p className="text-sm text-gray-400 font-medium">
@@ -37,7 +37,7 @@ const TestimonialSwiper = () => {
             trends markets without it. I'm addicted!”
           </p>
         </SwiperSlide>
-        <SwiperSlide className="bg-white w-full max-w-[530px] rounded-xl box-gradient space-y-3 p-4">
+        <SwiperSlide className="bg-white w-full max-w-[530px] rounded-xl space-y-3 p-4">
           <div className="flex flex-wrap items-center gap-2">
             <p className="text-base font-semibold">Shiv S</p>
             <p className="text-sm text-gray-400 font-medium">

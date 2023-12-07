@@ -34,7 +34,7 @@ const NotificationSwiper = () => {
         //   },
         // }}
       >
-        <SwiperSlide className="bg-white max-w-full !w-[190px] rounded-lg box-gradient space-y-3 h-[171px] p-3">
+        <SwiperSlide className="bg-white max-w-full !w-[190px] rounded-lg space-y-3 h-[171px] p-3">
           <div className="flex justify-between items-start">
             <img
               src="/assets/bell 2.svg"
