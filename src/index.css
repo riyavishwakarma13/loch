@@ -53,6 +53,7 @@ body {
     rgba(0, 0, 0, 0) 100%
   );
   background-color: black;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1279px) {

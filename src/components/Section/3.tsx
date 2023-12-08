@@ -2,7 +2,7 @@ import TestimonialSwiper from "../TestimonialSwiper";
 
 const Three = () => {
   return (
-    <div>
+    <>
       <div className="hidden xl:flex flex-col">
         <div className="pb-6 mr-20 border-b border-[#E5E5E680]">
           <h4 className="text-white text-2xl text-center 2xl:text-right">
@@ -27,7 +27,7 @@ const Three = () => {
         </div>
         <TestimonialSwiper />
       </div>
-    </div>
+    </>
   );
 };
 
